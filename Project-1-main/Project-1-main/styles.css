@@ -1,0 +1,190 @@
+#mooi_nav{
+    background-color: rgb(27, 26, 26);
+    padding: 0% 12%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 28px;
+}
+
+#searchbox {
+    background-color: rgb(47, 48, 48);
+    color: white;
+    border: 0;
+    border-radius: 0%;
+    position: relative;
+    left: 48px;
+    box-shadow: 5px 5px 9px 0px rgb(245 245 245 / 70%);
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbutton{
+    position: relative;
+    z-index: 50;
+    border: 0px;
+    border-radius: 0%;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 786px){
+    #media{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #media{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+}
+#below_nav{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+}
+#left h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+#left p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#btn-2{
+    background-color: teal;
+    border: 2px solid teal;
+    color: white;
+}
+#btn-1{
+    color: white;
+    border: 2px solid white;
+}
+@media only screen and (max-width: 1300px){
+    #left h1{
+        color: white;
+        font-size: 50px;
+    }
+    
+}
+@media only screen and (max-width: 900px){
+    #left h1{
+        font-size: 46px;
+    }
+}
+@media only screen and (max-width: 465px){
+    #left h1{
+        font-size: 44px;
+    }
+}
+#left-text{
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+#service-button{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+#image-2{
+    padding: 6%;
+}
+@media only screen and (max-width: 768px){
+    #image-2{
+        padding-top: 25%;
+    }
+}#reference{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.747)), url(https://images.pexels.com/photos/7474643/pexels-photo-7474643.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#blog{
+    padding-top: 70px;
+    padding-bottom: 70px;   
+}
+#blog-head{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-para{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.article-det{
+    padding: 15px;
+    border: 1px solid black;
+    border-top: 0px;
+}
+.article-date, .article-link{
+    color: rgb(60, 143, 146);
+}
+#footer{
+    background-color: rgba(37, 36, 37, 0.856);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#search-box{
+    background-color: rgb(155, 85, 85);
+    border: 0px;
+    padding: 17px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 5px;
+    
+}
+#search-submit{
+    background-color: rgb(227, 206, 228);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 0px;
+    padding: 17px 40px;
+}
+.social{
+    font-size: 35px;
+    margin-top: 15px;
+    margin: 5px 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1150px){
+    #searchbox{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #searchbox{
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #searchbox{
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 50px;
+    }
+}
+    
